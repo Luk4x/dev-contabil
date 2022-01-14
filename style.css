@@ -8,8 +8,8 @@
 
 header {
     padding: 10px;
-    height: 80vh;
-    background: rgb(40, 40, 40) url("image_illus.jpg") center top no-repeat;
+    height: 85vh;
+    background: rgb(40, 40, 40) url("image_illus.jpg") left center no-repeat;
     background-size: cover;
 }
 
@@ -28,18 +28,11 @@ nav > h2 {
 }
 
 #nav2 > a {
-    cursor: pointer;
     margin-left: 30px;
     font-size: 1.1em;
-}
-
-a {
     text-decoration: none;
-    color: unset;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: whitesmoke;
+    cursor: pointer;
 }
 
 header > h1 {
@@ -57,12 +50,21 @@ header > form {
     border-radius: 10px;
     float: right;
     position: relative;
-    top: 80px;
+    top: 10px;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #252B42;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s linear;
+}
+
+.visible-form {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.8s linear;
 }
 
 form > h3 {
@@ -75,6 +77,7 @@ form p {
     color: #252B42;
     font-size: 1.05em;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 form input, form textarea {
@@ -85,7 +88,7 @@ form input, form textarea {
     border: 1px solid #E6E6E6;
     border-radius: 5px;
     font-size: 0.9em;
-    line-height: 28px;
+    line-height: 24px;
     margin-bottom: 34px;
     padding-left: 20px;
 }
@@ -118,11 +121,11 @@ form > button:active {
 
 main {
     background: #eeeeee;
-    padding-bottom: 70px;
+    padding: 15vh 0;
 }
 
 main > h2 {
-    padding: 70px 0;
+    padding-bottom: 70px;
     text-align: center;
     font-size: 2.7em;
 }
@@ -177,7 +180,12 @@ footer > h2 {
     padding-top: 60px;
 }
 
-footer > p {
+footer > article {
+    max-width: 1550px;
+    margin: auto;
+}
+
+footer > article > p {
     font-size: 1.6em;
     margin: 30px 0;
     line-height: 1.4em;

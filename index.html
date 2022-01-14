@@ -16,31 +16,37 @@
         <nav>
             <h2>Dev Contábil</h2>
             <div id="nav2">
-                <a href="#" rel="next">Quem somos</a>
-                <a href="#" rel="next">Serviços</a>
-                <a href="#" rel="next">Contato</a>
+                <a href="#who-we-are" rel="next">Quem somos</a>
+                <a href="#services" rel="next">Serviços</a>
+                <a onclick="contactButton()">Contato</a>
             </div>
         </nav>
         <h1>Dev Contábil</h1>
-        <form action="">
+        <form action="https://formsubmit.co/luk4xm4ci3l@gmail.com" method="POST" id="contact-form">
             <h3>Entre em Contato</h3>
             <label>
                 <p>Nome</p>
-                <input type="text" name="name" placeholder="Seu nome">
+                <input type="text" name="name" placeholder="Seu nome" required>
             </label>
             <label>
                 <p>Email</p>
-                <input type="email" name="email" placeholder="seuemail@gmail.com">
+                <input type="email" name="email" placeholder="seuemail@gmail.com" required>
+            </label>
+            <label>
+                <p>Whatsapp (opcional)</p>
+                <input type="tel" name="tel" placeholder="Digite seu número" required>
             </label>
             <label>
                 <p>Fale Conosco</p>
-                <textarea type="menssage" name="menssage" rows="5" placeholder="Sua dúvida aqui"></textarea>
+                <textarea name="message" rows="5" placeholder="Sua dúvida aqui" required></textarea>
             </label>
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_autoresponse" value="Olá, sua menssagem foi recebida pela nossa equipe da Dev Contábil. Retornaremos em breve!">
             <button type="submit">Enviar</button>
         </form>
     </header>
     <main>
-        <h2>Nossos Serviços</h2>
+        <h2 id="services">Nossos Serviços</h2>
         <section>
             <article>
                 <h3>Contabilidade Completa</h3>
@@ -78,23 +84,23 @@
         </section>
     </main>
     <footer>
-        <h2>Sobre Nós</h2>
-            <p>
-                Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que já atuam ou desejam abrir seus negócios e ingressar no Brasil.
-            </p>
-
-            <p>
-                Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”) interessados em fazer negócios em outros países.
-                Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a abertura, legalização e regularização de empresas e negócios.
-            </p>
-
-            <p>
-                Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e logística de suas atividades, com profissionais qualificados, competentes e continuamente treinados.
-            </p>
-
-            <p>
-                Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o Planejamento das Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo incorporação ou desmembramento de atividades.
-            </p>
+        <h2 id="who-we-are">Sobre Nós</h2>
+            <article>
+                <p>
+                    Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que já atuam ou desejam abrir seus negócios e ingressar no Brasil.
+                </p>
+                <p>
+                    Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”) interessados em fazer negócios em outros países.
+                    Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a abertura, legalização e regularização de empresas e negócios.
+                </p>
+                <p>
+                    Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e logística de suas atividades, com profissionais qualificados, competentes e continuamente treinados.
+                </p>
+                <p>
+                    Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o Planejamento das Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo incorporação ou desmembramento de atividades.
+                </p>
+            </article>
     </footer>
 </body>
+<script src="script.js"></script>
 </html>

@@ -1,1 +1,1 @@
-# Construção de um site unificando meus conhecimentos de HTML5, CSS3 e JavaScript.
+# Construção de um site unificando meus conhecimentos em HTML5, CSS3 e JavaScript.

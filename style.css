@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 10px;
+    height: 80vh;
+    background: rgb(40, 40, 40) url("image_illus.jpg") center top no-repeat;
+    background-size: cover;
+}
+
+header > nav {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 35px;
+    justify-content: space-between;
+}
+
+nav > h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#nav2 > a {
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header > h1 {
+    font-size: 5em;
+    color: whitesmoke;
+    position: relative;
+    top: 450px;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+
+header > form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    top: 80px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #252B42;
+}
+
+form > h3 {
+    font-size: 1.9em;
+    margin-bottom: 44px;
+}
+
+form p {
+    letter-spacing: 0.2px;
+    color: #252B42;
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+form input, form textarea {
+    padding: 10px;
+    width: 370px;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    font-size: 0.9em;
+    line-height: 28px;
+    margin-bottom: 34px;
+    padding-left: 20px;
+}
+
+form textarea {
+    height: unset;
+    resize: none;
+}
+
+form > button {
+    width: 360px;
+    height: 52px;
+    background: #40BB15;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.07em;
+    padding: 15px 40px;
+}
+
+form > button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+form > button:active {
+    transform: translateY(1px);
+}
+
+main {
+    background: #eeeeee;
+    padding-bottom: 70px;
+}
+
+main > h2 {
+    padding: 70px 0;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+main > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1550px;
+    margin: auto;
+}
+
+section > article {
+    width: 370px;
+}
+
+section > article > h3 {
+    background: #219653;
+    padding: 30px 50px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+section > article > ul {
+    background: #EEF6FF;
+    padding: 30px 49px;
+    border: 1px solid #A9D6FF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul > li {
+    color: #737373;
+    font-size: 1.05em;
+    margin: 5px 15px;
+}
+
+footer {
+    background-color: #1E2844;
+    color: whitesmoke;
+    padding: 0 100px 30px 100px;
+}
+
+footer > h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    padding-top: 60px;
+}
+
+footer > p {
+    font-size: 1.6em;
+    margin: 30px 0;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    text-align: justify;
+}

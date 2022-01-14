@@ -103,7 +103,7 @@ form textarea {
 form > button {
     width: 360px;
     height: 52px;
-    background: #40BB15;
+    background: #153cbb;
     border-radius: 5px;
     border: none;
     color: whitesmoke;
@@ -141,11 +141,11 @@ main > section {
 }
 
 section > article {
-    width: 370px;
+    width: 380px;
 }
 
 section > article > h3 {
-    background: #219653;
+    background: #213396;
     padding: 30px 50px;
     border: none;
     border-top-left-radius: 10px;

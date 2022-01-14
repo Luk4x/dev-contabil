@@ -4,11 +4,13 @@
     box-sizing: border-box;
     outline: none;
     font-family: 'Montserrat', sans-serif;
+    -moz-transform: scale(0.97, 0.97);
+    zoom: 0.97;
 }
 
 header {
     padding: 10px;
-    height: 85vh;
+    height: 95vh;
     background: rgb(40, 40, 40) url("image_illus.jpg") left center no-repeat;
     background-size: cover;
 }
@@ -50,7 +52,7 @@ header > form {
     border-radius: 10px;
     float: right;
     position: relative;
-    top: 10px;
+    top: -20px;
     margin-right: 50px;
     display: flex;
     flex-direction: column;

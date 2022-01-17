@@ -195,3 +195,17 @@ footer > article > p {
     letter-spacing: 1px;
     text-align: justify;
 }
+
+footer > button {
+    display: block;
+    margin: 10px auto;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+footer > button:hover {
+    cursor: pointer;
+}

@@ -4,7 +4,11 @@ let footer = document.getElementById('doc-footer')
 toTopButton.addEventListener('click', backTop)
 
 function contactButton() {
-    form.className = 'visible-form'
+    if (form.className == 'invisible-form') {
+        form.className = 'visible-form'
+    } else {
+        form.className = 'invisible-form'
+    }
 }
 
 function backTop() {

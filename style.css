@@ -58,9 +58,12 @@ header > form {
     flex-direction: column;
     align-items: center;
     color: #252B42;
+}
+
+.invisible-form {
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.8s linear;
+    transition-duration: 0.8s;
 }
 
 .visible-form {

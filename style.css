@@ -24,21 +24,40 @@ header > nav {
     justify-content: space-between;
 }
 
+nav {
+    position: relative;
+}
+
 nav > h2 {
     font-size: 2em;
     font-weight: 600;
 }
 
-#nav2 > a {
+.nav2 > a {
     margin-left: 30px;
-    font-size: 1.1em;
+    font-size: 1.5em;
     text-decoration: none;
     color: whitesmoke;
     cursor: pointer;
 }
 
+#mobile-menu-btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+#mobile-menu-btn > span {
+    width: 25px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: whitesmoke;
+    display: block;
+    cursor: pointer;
+}
+
 header > h1 {
-    font-size: 5em;
+    font-size: 5.6em;
     color: whitesmoke;
     position: relative;
     top: 450px;
@@ -53,7 +72,7 @@ header > form {
     float: right;
     position: relative;
     top: -20px;
-    margin-right: 50px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,6 +159,7 @@ main > section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     max-width: 1550px;
     margin: auto;
 }
@@ -211,4 +231,59 @@ footer > button {
 
 footer > button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .nav2.active {
+        top: -11px;
+        transition: all .6s ease-in-out;
+    }
+
+    .nav2 {
+        position: absolute;
+        top: -1001px;
+        right: -11px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 30px;
+        font-size: 1.2em;
+        background-color: #252B42;
+        border-bottom-left-radius: 10px;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .nav2 > a {
+        margin: 10px 0;
+        font-size: 1.4em;
+    }
+
+    #mobile-menu-btn {
+        display: block;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    header > form {
+        float: left;
+        margin-top: 70px;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    main > section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section > article {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        padding: 0 40px 20px 40px;
+    }
 }

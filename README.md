@@ -1,13 +1,13 @@
 # Dev Contábil
 
 ## About
-Accounting website using HTML5, CSS3 and JavaScript.
+Dev Contábil was a project for an accounting site, built in the event "Missão Programação do Zero" with HTML, CSS and a little JavaScript, by Rodolfo Mori. It was a simple and fun project to do, I really liked the result, and I also added some improvements like responsiveness and other small details.
 
 ## Result
 <img src="./result.png" alt="challenge-result">
 Access the project <a href="https://luk4x.github.io/dev-contabil/">HERE</a>
 
-## 🤝 Contributors Linkedin
+## Contributors Contact
 <table>
   <tr>
     <td align="center">

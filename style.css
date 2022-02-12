@@ -6,6 +6,7 @@
     font-family: 'Montserrat', sans-serif;
     -moz-transform: scale(0.97, 0.97);
     zoom: 0.97;
+    scroll-behavior: smooth;
 }
 
 header {

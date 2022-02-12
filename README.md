@@ -1,7 +1,7 @@
 # Dev Contábil
 
 ## About
-Dev Contábil was a project for an accounting site, built in the event "Missão Programação do Zero" with HTML, CSS and a little JavaScript, by Rodolfo Mori. It was a simple and fun project to do, I really liked the result, and I also added some improvements like responsiveness and other small details.
+Dev Contábil was a project for an accounting site, built in the event "Missão Programação do Zero" with HTML, CSS and a little JavaScript, with Professor <a href="https://www.linkedin.com/in/rodolfomori/" target="_blank">Rodolfo Mori<a>. It was a simple and fun project to do, I really liked the result, and I also added some improvements like responsiveness and other small details.
 
 ## Result
 <p align="center">

@@ -5,7 +5,7 @@ Dev Contábil was a project for an accounting site, built in the event "Missão 
 
 ## Result
 <p align="center">
-  <img src="./dev-contabil-min.gif" alt="result">
+  <video src="https://user-images.githubusercontent.com/86276393/153721576-c2a634fa-a814-478e-bed0-49c93f8f0d0d.mp4">
 </p>
 Access the project <a href="https://luk4x.github.io/dev-contabil/">HERE</a>
 

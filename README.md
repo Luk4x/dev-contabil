@@ -1,15 +1,75 @@
-# Dev Contábil
+<table align="right">
+  <tr>
+    <td>
+      <a href="readme-en.md">🇺🇸 English</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="README.md">🇧🇷 Português</a>
+    </td>
+  </tr>
+</table>
+<br>
 
-## About
-Dev Contábil was a project for an accounting site, built in the event "Missão Programação do Zero" with HTML, CSS and a little JavaScript, with Professor <a href="https://www.linkedin.com/in/rodolfomori/" target="_blank">Rodolfo Mori<a>. It was a simple and fun project to do, I really liked the result, and I also added some improvements like responsiveness and other small details.
+# 🧾 Dev Contábil Project
 
-## Result
+<br>
 <p align="center">
-  <video src="https://user-images.githubusercontent.com/86276393/153721576-c2a634fa-a814-478e-bed0-49c93f8f0d0d.mp4">
+  <a href="#-apresentação-em-vídeo-do-projeto">Vídeo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-alguns-destaques">Destaques</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-clonando-o-projeto">Clone</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato-dos-contribuintes">Contato</a>
 </p>
-Access the project <a href="https://luk4x.github.io/dev-contabil/">HERE</a>
+<br>
 
-## Contributors Contact
+## 📹 Apresentação em Vídeo do Projeto
+<div align="center">
+  <video src="https://user-images.githubusercontent.com/86276393/153721576-c2a634fa-a814-478e-bed0-49c93f8f0d0d.mp4">
+</div>
+
+> **Caso o vídeo apresente algum erro, recarregue a página!**<br>
+> Acesse o projeto online **[AQUI](https://luk4x.github.io/dev-contabil/)**
+
+## 🚀 Tecnologias Utilizadas
+
+-   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+-   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+## 📝 Sobre
+
+> Assistir o vídeo acima e/ou acessar o projeto online ajudará na compreensão da explicação!
+
+A Dev Contábil, como o nome sugere, é uma aplicação feita com o objetivo de ser a página de venda/marketing de um site de contabilidade, onde coloquei meus conhecimentos de HTML, CSS e Javascript em prática.
+
+### 📌 Alguns Destaques
+
+- Formulário de Contato;
+- Smooth Scrolling;
+- Navegação por `id`;
+
+## 📖 Clonando o Projeto
+
+Para clonar e executar este projeto em seu computador, você precisará apenas que o [Git](https://git-scm.com/) esteja previamente instalado.<br>
+Feito isso, no terminal:
+
+```bash
+# Clone esse repositório com:
+> git clone https://github.com/Luk4x/dev-contabil.git
+
+# Entre no repositório com:
+> cd dev-contabil
+
+# Execute o projeto com:
+> start index.html # Para usuários de Windows
+> open index.html # Para usuários de Linux/Mac
+```
+
+## 🤝 Contato dos Contribuintes
+
 <table>
   <tr>
     <td align="center">
@@ -22,3 +82,7 @@ Access the project <a href="https://luk4x.github.io/dev-contabil/">HERE</a>
     </td>
   </tr>
 </table>
+
+<p align="right">
+  <a href="#-dev-contábil-project">Voltar ao Topo</a>
+</p>
